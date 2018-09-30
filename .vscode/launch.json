@@ -1,0 +1,218 @@
+{
+	// Use IntelliSense to learn about possible attributes.
+	// Hover to view descriptions of existing attributes.
+	// For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Casting/Examples",
+			"request": "launch",
+			"type": "cppvsdbg",
+			"program": "${workspaceFolder}/Build/Debug/Casting_Examples",
+			"cwd": "${workspaceFolder}",
+			"externalConsole": false,
+			"stopAtEntry": false,
+			"args": [],
+			"environment": [],
+			"windows": {
+				"symbolSearchPath": "${workspaceFolder}/Build/Casting_Examples.dir;%APPDATA%/Local/Temp/SymbolCache"
+			},
+		},
+		{
+			"name": "Casting/Copy Constructors & Assignment",
+			"request": "launch",
+			"type": "cppvsdbg",
+			"program": "${workspaceFolder}/Build/Debug/Casting_Copy_Constructors_And_Assignment",
+			"cwd": "${workspaceFolder}",
+			"externalConsole": false,
+			"stopAtEntry": false,
+			"args": [],
+			"environment": [],
+			"windows": {
+				"symbolSearchPath": "${workspaceFolder}/Build/Casting_Copy_Constructors_And_Assignment.dir;%APPDATA%/Local/Temp/SymbolCache"
+			},
+		},
+		{
+			"name": "Allocation/Bad Alloc",
+			"request": "launch",
+			"type": "cppvsdbg",
+			"program": "${workspaceFolder}/Build/Debug/Allocation_Bad_Alloc",
+			"cwd": "${workspaceFolder}",
+			"externalConsole": false,
+			"stopAtEntry": false,
+			"args": [],
+			"environment": [],
+			"windows": {
+				"symbolSearchPath": "${workspaceFolder}/Build/Allocation_Bad_Alloc.dir;%APPDATA%/Local/Temp/SymbolCache"
+			}
+		},
+		{
+			"name": "Allocation/Customising Memory Allocation",
+			"request": "launch",
+			"type": "cppvsdbg",
+			"program": "${workspaceFolder}/Build/Debug/Allocation_Customising_Memory_Allocation",
+			"cwd": "${workspaceFolder}",
+			"externalConsole": false,
+			"stopAtEntry": false,
+			"args": [],
+			"environment": [],
+			"windows": {
+				"symbolSearchPath": "${workspaceFolder}/Build/Allocation_Customising_Memory_Allocation.dir;%APPDATA%/Local/Temp/SymbolCache"
+			}
+		},
+		{
+			"name": "Allocation/Caching",
+			"request": "launch",
+			"type": "cppvsdbg",
+			"program": "${workspaceFolder}/Build/Debug/Allocation_Caching",
+			"cwd": "${workspaceFolder}",
+			"externalConsole": false,
+			"stopAtEntry": false,
+			"args": [],
+			"environment": [],
+			"windows": {
+				"symbolSearchPath": "${workspaceFolder}/Build/Allocation_Caching.dir;%APPDATA%/Local/Temp/SymbolCache"
+			}
+		},
+		{
+			"name": "Template Functions/Template Functions",
+			"request": "launch",
+			"type": "cppvsdbg",
+			"program": "${workspaceFolder}/Build/Debug/Template_Functions_Template_Functions",
+			"cwd": "${workspaceFolder}",
+			"externalConsole": false,
+			"stopAtEntry": false,
+			"args": [],
+			"environment": [],
+			"windows": {
+				"symbolSearchPath": "${workspaceFolder}/Build/Template_Functions_Template_Functions.dir;%APPDATA%/Local/Temp/SymbolCache"
+			}
+		},
+		{
+			"name": "Template Functions/Implementing Generic Algorithms",
+			"request": "launch",
+			"type": "cppvsdbg",
+			"program": "${workspaceFolder}/Build/Debug/Template_Functions_Implementing_Generic_Algorithms",
+			"cwd": "${workspaceFolder}",
+			"externalConsole": false,
+			"stopAtEntry": false,
+			"args": [],
+			"environment": [],
+			"windows": {
+				"symbolSearchPath": "${workspaceFolder}/Build/Template_Functions_Implementing_Generic_Algorithms.dir;%APPDATA%/Local/Temp/SymbolCache"
+			}
+		},
+		{
+			"name": "Template Functions/Overview",
+			"request": "launch",
+			"type": "cppvsdbg",
+			"program": "${workspaceFolder}/Build/Debug/Template_Functions_Overview",
+			"cwd": "${workspaceFolder}",
+			"externalConsole": false,
+			"stopAtEntry": false,
+			"args": [],
+			"environment": [],
+			"windows": {
+				"symbolSearchPath": "${workspaceFolder}/Build/Template_Functions_Overview.dir;%APPDATA%/Local/Temp/SymbolCache"
+			}
+		},
+		{
+			"name": "Template Functions/Standard Container Classes",
+			"request": "launch",
+			"type": "cppvsdbg",
+			"program": "${workspaceFolder}/Build/Debug/Template_Functions_Standard_Container_Classes",
+			"cwd": "${workspaceFolder}",
+			"externalConsole": false,
+			"stopAtEntry": false,
+			"args": [],
+			"environment": [],
+			"windows": {
+				"symbolSearchPath": "${workspaceFolder}/Build/Template_Functions_Standard_Container_Classes.dir;%APPDATA%/Local/Temp/SymbolCache"
+			}
+		},
+		{
+			"name": "Template Functions/Defining Non-Type Template Parameters",
+			"request": "launch",
+			"type": "cppvsdbg",
+			"program": "${workspaceFolder}/Build/Debug/Template_Functions_Defining_Non_Type_Template_Parameters",
+			"cwd": "${workspaceFolder}",
+			"externalConsole": false,
+			"stopAtEntry": false,
+			"args": [],
+			"environment": [],
+			"windows": {
+				"symbolSearchPath": "${workspaceFolder}/Build/Template_Functions_Defining_Non_Type_Template_Parameters.dir;%APPDATA%/Local/Temp/SymbolCache"
+			}
+		},
+		{
+			"name": "Template Adapters/Defining Template Adapters",
+			"request": "launch",
+			"type": "cppvsdbg",
+			"program": "${workspaceFolder}/Build/Debug/Template_Adapters_Defining_Template_Adapters",
+			"cwd": "${workspaceFolder}",
+			"externalConsole": false,
+			"stopAtEntry": false,
+			"args": [],
+			"environment": [],
+			"windows": {
+				"symbolSearchPath": "${workspaceFolder}/Build/Template_Adapters_Defining_Template_Adapters.dir;%APPDATA%/Local/Temp/SymbolCache"
+			}
+		},
+		{
+			"name": "Template Adapters/Specifying Default Template Parameters",
+			"request": "launch",
+			"type": "cppvsdbg",
+			"program": "${workspaceFolder}/Build/Debug/Template_Adapters_Specifying_Default_Template_Parameters",
+			"cwd": "${workspaceFolder}",
+			"externalConsole": false,
+			"stopAtEntry": false,
+			"args": [],
+			"environment": [],
+			"windows": {
+				"symbolSearchPath": "${workspaceFolder}/Build/Template_Adapters_Specifying_Default_Template_Parameters.dir;%APPDATA%/Local/Temp/SymbolCache"
+			}
+		},
+		{
+			"name": "Template Adapters/Specializing Templates",
+			"request": "launch",
+			"type": "cppvsdbg",
+			"program": "${workspaceFolder}/Build/Debug/Template_Adapters_Specializing_Templates",
+			"cwd": "${workspaceFolder}",
+			"externalConsole": false,
+			"stopAtEntry": false,
+			"args": [],
+			"environment": [],
+			"windows": {
+				"symbolSearchPath": "${workspaceFolder}/Build/Template_Adapters_Specializing_Templates.dir;%APPDATA%/Local/Temp/SymbolCache"
+			}
+		},
+		{
+			"name": "Template Adapters/Defining Trait Classes",
+			"request": "launch",
+			"type": "cppvsdbg",
+			"program": "${workspaceFolder}/Build/Debug/Template_Adapters_Defining_Trait_Classes",
+			"cwd": "${workspaceFolder}",
+			"externalConsole": false,
+			"stopAtEntry": false,
+			"args": [],
+			"environment": [],
+			"windows": {
+				"symbolSearchPath": "${workspaceFolder}/Build/Template_Adapters_Defining_Trait_Classes.dir;%APPDATA%/Local/Temp/SymbolCache"
+			}
+		},
+		{
+			"name": "Standard Iterators/Standard Iterators",
+			"request": "launch",
+			"type": "cppvsdbg",
+			"program": "${workspaceFolder}/Build/Debug/Standard_Iterators_Standard_Iterators",
+			"cwd": "${workspaceFolder}",
+			"externalConsole": true,
+			"stopAtEntry": false,
+			"args": [],
+			"environment": [],
+			"windows": {
+				"symbolSearchPath": "${workspaceFolder}/Build/Standard_Iterators_Standard_Iterators.dir;%APPDATA%/Local/Temp/SymbolCache"
+			}
+		}
+	]
+}

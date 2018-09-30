@@ -1,0 +1,76 @@
+{
+	// See https://go.microsoft.com/fwlink/?LinkId=733558
+	// for the documentation about the tasks.json format
+	"version": "2.0.0",
+	"type": "shell",
+	"windows": {
+		"options": {
+			"shell": {
+				"executable": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+				"args": [
+						"-NoProfile",
+						"-ExecutionPolicy",
+						"Bypass",
+						"-Command"
+				]
+			}
+		}
+	},
+	"options": {
+		"cwd": "${workspaceRoot}/Build"
+	},
+	"tasks": [
+		{
+			"label": "Build all",
+			"windows": {
+				"command": "../Invoke-All-Build"
+			}, 
+			"group": "build",
+			"presentation": {
+				// Reveal the output only if unrecognized errors occur.
+				"reveal": "always"
+			},
+			// Use the standard MS compiler pattern to detect errors, warnings and infos
+			"problemMatcher": "$msCompile"
+		},
+		{
+			"label": "Update build script",
+			"windows": {
+				"command": "../New-BuildScript"
+			},
+			"group": "build",
+			"presentation": {
+				// Reveal the output only if unrecognized errors occur.
+				"reveal": "always"
+			},
+			// Use the standard MS compiler pattern to detect errors, warnings and infos
+			"problemMatcher": "$msCompile"
+		},
+		{
+			"label": "Re-build all",
+			"windows": {
+				"command": "../Invoke-All-Rebuild"
+			}, 
+			"group": "build",
+			"presentation": {
+				// Reveal the output only if unrecognized errors occur.
+				"reveal": "always"
+			},
+			// Use the standard MS compiler pattern to detect errors, warnings and infos
+			"problemMatcher": "$msCompile"
+		},
+		{
+			"label": "Clean",
+			"windows": {
+				"command": "./Remove-Build"
+			}, 
+			"group": "build",
+			"presentation": {
+				// Reveal the output only if unrecognized errors occur.
+				"reveal": "always"
+			},
+			// Use the standard MS compiler pattern to detect errors, warnings and infos
+			"problemMatcher": "$msCompile"
+		}
+	]
+}
