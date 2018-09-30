@@ -12,5 +12,9 @@ CMake --build . --target Template_Adapters_Defining_Template_Adapters
 CMake --build . --target Template_Adapters_Specifying_Default_Template_Parameters
 CMake --build . --target Template_Adapters_Specializing_Templates
 CMake --build . --target Template_Adapters_Defining_Trait_Classes
-#>
 CMake --build . --target Standard_Iterators_Standard_Iterators
+CMake --build . --target Standard_Iterators_Creating_Generic_Algorithms
+CMake --build . --target Functions_Function_Objects
+CMake --build . --target Functions_Overloading_Indexing_Operator
+#>
+CMake --build . --target Functions_Creating_Multidimensional_Containers
