@@ -1,2 +1,2 @@
-!Build/Remove-Build.ps1
-Build/
+!/Build/Remove-Build.ps1
+/Build/*
