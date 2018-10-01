@@ -26,3 +26,4 @@ CMake --build . --target Function_Pointers_The_Command_Pattern
 CMake --build . --target Function_Pointers_Member_Function_Pointers
 #>
 CMake --build . --target Defining_Interfaces_Defining_Interfaces
+CMake --build . --target Defining_Interfaces_Multiple_Inheritance

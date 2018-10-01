@@ -140,3 +140,8 @@ add_executable(Defining_Interfaces_Defining_Interfaces
 "${PROJECT_SOURCE_DIR}/Patterns/Defining_Interfaces/Defining_Interfaces.cpp"
 ${COMMON_FILES}
 )
+
+add_executable(Defining_Interfaces_Multiple_Inheritance
+"${PROJECT_SOURCE_DIR}/Patterns/Defining_Interfaces/Multiple_Inheritance.cpp"
+${COMMON_FILES}
+)

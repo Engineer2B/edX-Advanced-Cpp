@@ -367,6 +367,20 @@
 			"windows": {
 				"symbolSearchPath": "${workspaceFolder}/Build/Defining_Interfaces_Defining_Interfaces.dir;https://msdl.microsoft.com/download/symbols"
 			}
+		},
+		{
+			"name": "Defining Interfaces/Multiple Inheritance",
+			"request": "launch",
+			"type": "cppvsdbg",
+			"program": "${workspaceFolder}/Build/Debug/Defining_Interfaces_Multiple_Inheritance",
+			"cwd": "${workspaceFolder}",
+			"externalConsole": false,
+			"stopAtEntry": false,
+			"args": [],
+			"environment": [],
+			"windows": {
+				"symbolSearchPath": "${workspaceFolder}/Build/Defining_Interfaces_Multiple_Inheritance.dir;https://msdl.microsoft.com/download/symbols"
+			}
 		}
 	]
 }
