@@ -269,6 +269,48 @@
 			"windows": {
 				"symbolSearchPath": "${workspaceFolder}/Build/Functions_Creating_Multidimensional_Containers.dir;https://msdl.microsoft.com/download/symbols"
 			}
+		},
+		{
+			"name": "Defining Classes/That Use Shared Representation Objects",
+			"request": "launch",
+			"type": "cppvsdbg",
+			"program": "${workspaceFolder}/Build/Debug/Defining_Classes_That_Use_Shared_Representation_Objects",
+			"cwd": "${workspaceFolder}",
+			"externalConsole": false,
+			"stopAtEntry": false,
+			"args": [],
+			"environment": [],
+			"windows": {
+				"symbolSearchPath": "${workspaceFolder}/Build/Defining_Classes_That_Use_Shared_Representation_Objects.dir;https://msdl.microsoft.com/download/symbols"
+			}
+		},
+		{
+			"name": "Defining Classes/Reference Counted Strings",
+			"request": "launch",
+			"type": "cppvsdbg",
+			"program": "${workspaceFolder}/Build/Debug/Defining_Classes_Reference_Counted_Strings",
+			"cwd": "${workspaceFolder}",
+			"externalConsole": false,
+			"stopAtEntry": false,
+			"args": [],
+			"environment": [],
+			"windows": {
+				"symbolSearchPath": "${workspaceFolder}/Build/Defining_Classes_Reference_Counted_Strings.dir;https://msdl.microsoft.com/download/symbols"
+			}
+		},
+		{
+			"name": "Defining Classes/Defining Smart Pointers For Garbage Collection",
+			"request": "launch",
+			"type": "cppvsdbg",
+			"program": "${workspaceFolder}/Build/Debug/Defining_Classes_Defining_Smart_Pointers_For_Garbage_Collection",
+			"cwd": "${workspaceFolder}",
+			"externalConsole": false,
+			"stopAtEntry": false,
+			"args": [],
+			"environment": [],
+			"windows": {
+				"symbolSearchPath": "${workspaceFolder}/Build/Defining_Classes_Defining_Smart_Pointers_For_Garbage_Collection.dir;https://msdl.microsoft.com/download/symbols"
+			}
 		}
 	]
 }

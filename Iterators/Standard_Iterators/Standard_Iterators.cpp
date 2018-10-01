@@ -1,52 +1,48 @@
+#include <forward_list>
 #include <iostream>
-#include <vector>
-#include <string>
 #include <istream>
 #include <iterator>
 #include <list>
-#include <forward_list>
+#include <string>
+#include <vector>
 
 using namespace std;
 
-int main()
-{
-	//istreambuf demo.
+int main() {
+	// istreambuf demo.
 	istreambuf_iterator<char> isbeos;
 	istreambuf_iterator<char> isbuf(cin.rdbuf());
 	string mystring;
 
 	cout << "Please enter some text and the return key when finished: ";
 
-	while (isbuf != isbeos && *isbuf != '\n')
-	{
+	while(isbuf != isbeos && *isbuf != '\n') {
 		mystring += *isbuf++;
 	}
 
 	cout << "\n"
-			 << "The text you entered was " << mystring.c_str() << ".\n\n";
+	     << "The text you entered was " << mystring.c_str() << ".\n\n";
 
-	//istream example
+	// istream example
 	int val1, val2;
 	cout << "Please enter two integers: ";
 
-	istream_iterator<int> iseos;	 // end-of-stream iterator
+	istream_iterator<int> iseos; // end-of-stream iterator
 	istream_iterator<int> is(cin); // stin iterator
 
-	if (is != iseos && *is != '\n')
-	{
+	if(is != iseos && *is != '\n') {
 		val1 = *is;
 	}
 
 	++is;
-	if (is != iseos && *is != '\n')
-	{
+	if(is != iseos && *is != '\n') {
 		val2 = *is;
 	}
 
 	cout << "\n"
-			 << "You entered values: " << val1 << " and " << val2 << "\n\n";
+	     << "You entered values: " << val1 << " and " << val2 << "\n\n";
 
-	//forward iterator
+	// forward iterator
 	forward_list<int> fwdlist;
 	forward_list<int>::iterator fwdlistiter;
 	fwdlist.push_front(3);
@@ -54,14 +50,13 @@ int main()
 	fwdlist.push_front(1);
 
 	cout << "Forward iterator traversal of forward_list." << endl;
-	for (fwdlistiter = fwdlist.begin(); fwdlistiter != fwdlist.end(); fwdlistiter++)
-	{
+	for(fwdlistiter = fwdlist.begin(); fwdlistiter != fwdlist.end(); fwdlistiter++) {
 		cout << (*fwdlistiter) << endl;
 	}
 
 	cout << "\n";
 
-	//Create vector and list for iterator examples.
+	// Create vector and list for iterator examples.
 	vector<int> v;
 	vector<int>::iterator iter;
 
@@ -76,19 +71,18 @@ int main()
 	li.push_back(2);
 	li.push_back(3);
 
-	//Bi directional iterator example
-	//Forward traversal
+	// Bi directional iterator example
+	// Forward traversal
 	cout << "Forward traversal of list." << endl;
-	for (listiter = li.begin(); listiter != li.end(); listiter++)
-	{
+	for(listiter = li.begin(); listiter != li.end(); listiter++) {
 		cout << (*listiter) << endl;
 	}
 
 	cout << "\n";
 
-	//Reverse traversal.
+	// Reverse traversal.
 	cout << "Reverse traversal of list." << endl;
-	for(revlistiter = li.rbegin(); revlistiter != li.rend(); revlistiter++){
+	for(revlistiter = li.rbegin(); revlistiter != li.rend(); revlistiter++) {
 		cout << (*revlistiter) << endl;
 	}
 
@@ -98,14 +92,14 @@ int main()
 	iter += 2;
 	cout << "Random Access iterator vector beginning + offset 2 is " << *iter << "\n" << endl;
 
-	//Iterate array of ints with a pointer.
+	// Iterate array of ints with a pointer.
 	cout << "Traverse int array with pointer " << endl;
 	int intarray[3];
 	intarray[0] = 1;
 	intarray[1] = 2;
 	intarray[2] = 3;
 	int* endintarray = intarray + 3;
-	for(int* ptr = intarray; ptr < endintarray; ptr += 1){
+	for(int* ptr = intarray; ptr < endintarray; ptr += 1) {
 		cout << *ptr << endl;
 	}
 

@@ -16,5 +16,9 @@ CMake --build . --target Standard_Iterators_Standard_Iterators
 CMake --build . --target Standard_Iterators_Creating_Generic_Algorithms
 CMake --build . --target Functions_Function_Objects
 CMake --build . --target Functions_Overloading_Indexing_Operator
-#>
 CMake --build . --target Functions_Creating_Multidimensional_Containers
+CMake --build . --target Defining_Classes_That_Use_Shared_Representation_Objects
+CMake --build . --target Defining_Classes_Reference_Counted_Strings
+CMake --build . --target Defining_Smart_Pointers_For_Garbage_Collection
+#>
+CMake --build . --target Defining_Classes_Defining_Smart_Pointers_For_Garbage_Collection
