@@ -1,4 +1,5 @@
-<#CMake --build . --target Casting_Examples
+<#
+CMake --build . --target Casting_Examples
 CMake --build . --target Casting_Copy_Constructors_And_Assignment
 CMake --build . --target Allocation_Bad_Alloc
 CMake --build . --target Allocation_Customising_Memory_Allocation
@@ -20,5 +21,8 @@ CMake --build . --target Functions_Creating_Multidimensional_Containers
 CMake --build . --target Defining_Classes_That_Use_Shared_Representation_Objects
 CMake --build . --target Defining_Classes_Reference_Counted_Strings
 CMake --build . --target Defining_Smart_Pointers_For_Garbage_Collection
-#>
 CMake --build . --target Defining_Classes_Defining_Smart_Pointers_For_Garbage_Collection
+CMake --build . --target Function_Pointers_The_Command_Pattern
+CMake --build . --target Function_Pointers_Member_Function_Pointers
+#>
+CMake --build . --target Defining_Interfaces_Defining_Interfaces

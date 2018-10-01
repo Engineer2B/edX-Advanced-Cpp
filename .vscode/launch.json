@@ -311,6 +311,62 @@
 			"windows": {
 				"symbolSearchPath": "${workspaceFolder}/Build/Defining_Classes_Defining_Smart_Pointers_For_Garbage_Collection.dir;https://msdl.microsoft.com/download/symbols"
 			}
+		},
+		{
+			"name": "Function Pointers/Implementing Callbacks Using Function Pointers",
+			"request": "launch",
+			"type": "cppvsdbg",
+			"program": "${workspaceFolder}/Build/Debug/Function_Pointers_Implementing_Callbacks_using_Function_Pointers",
+			"cwd": "${workspaceFolder}",
+			"externalConsole": false,
+			"stopAtEntry": false,
+			"args": [],
+			"environment": [],
+			"windows": {
+				"symbolSearchPath": "${workspaceFolder}/Build/Function_Pointers_Implementing_Callbacks_using_Function_Pointers.dir;https://msdl.microsoft.com/download/symbols"
+			}
+		},
+		{
+			"name": "Function Pointers/The Command Pattern",
+			"request": "launch",
+			"type": "cppvsdbg",
+			"program": "${workspaceFolder}/Build/Debug/Function_Pointers_The_Command_Pattern",
+			"cwd": "${workspaceFolder}",
+			"externalConsole": false,
+			"stopAtEntry": false,
+			"args": [],
+			"environment": [],
+			"windows": {
+				"symbolSearchPath": "${workspaceFolder}/Build/Function_Pointers_The_Command_Pattern.dir;https://msdl.microsoft.com/download/symbols"
+			}
+		},
+		{
+			"name": "Function Pointers/Member Function Pointers",
+			"request": "launch",
+			"type": "cppvsdbg",
+			"program": "${workspaceFolder}/Build/Debug/Function_Pointers_Member_Function_Pointers",
+			"cwd": "${workspaceFolder}",
+			"externalConsole": false,
+			"stopAtEntry": false,
+			"args": [],
+			"environment": [],
+			"windows": {
+				"symbolSearchPath": "${workspaceFolder}/Build/Function_Pointers_Member_Function_Pointers.dir;https://msdl.microsoft.com/download/symbols"
+			}
+		},
+		{
+			"name": "Defining Interfaces/Defining Interfaces",
+			"request": "launch",
+			"type": "cppvsdbg",
+			"program": "${workspaceFolder}/Build/Debug/Defining_Interfaces_Defining_Interfaces",
+			"cwd": "${workspaceFolder}",
+			"externalConsole": false,
+			"stopAtEntry": false,
+			"args": [],
+			"environment": [],
+			"windows": {
+				"symbolSearchPath": "${workspaceFolder}/Build/Defining_Interfaces_Defining_Interfaces.dir;https://msdl.microsoft.com/download/symbols"
+			}
 		}
 	]
 }
