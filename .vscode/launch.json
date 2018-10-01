@@ -381,6 +381,48 @@
 			"windows": {
 				"symbolSearchPath": "${workspaceFolder}/Build/Defining_Interfaces_Multiple_Inheritance.dir;https://msdl.microsoft.com/download/symbols"
 			}
+		},
+		{
+			"name": "Base Classes/Virtual Base Classes",
+			"request": "launch",
+			"type": "cppvsdbg",
+			"program": "${workspaceFolder}/Build/Debug/Base_Classes_Virtual_Base_Classes",
+			"cwd": "${workspaceFolder}",
+			"externalConsole": false,
+			"stopAtEntry": false,
+			"args": [],
+			"environment": [],
+			"windows": {
+				"symbolSearchPath": "${workspaceFolder}/Build/Base_Classes_Virtual_Base_Classes.dir;https://msdl.microsoft.com/download/symbols"
+			}
+		},
+		{
+			"name": "Base Classes/Mixin Classes",
+			"request": "launch",
+			"type": "cppvsdbg",
+			"program": "${workspaceFolder}/Build/Debug/Base_Classes_Mixin_Classes",
+			"cwd": "${workspaceFolder}",
+			"externalConsole": false,
+			"stopAtEntry": false,
+			"args": [],
+			"environment": [],
+			"windows": {
+				"symbolSearchPath": "${workspaceFolder}/Build/Base_Classes_Mixin_Classes.dir;https://msdl.microsoft.com/download/symbols"
+			}
+		},
+		{
+			"name": "Base Classes/Run Type Type Information",
+			"request": "launch",
+			"type": "cppvsdbg",
+			"program": "${workspaceFolder}/Build/Debug/Base_Classes_Run_Type_Type_Information",
+			"cwd": "${workspaceFolder}",
+			"externalConsole": false,
+			"stopAtEntry": false,
+			"args": [],
+			"environment": [],
+			"windows": {
+				"symbolSearchPath": "${workspaceFolder}/Build/Base_Classes_Run_Type_Type_Information.dir;https://msdl.microsoft.com/download/symbols"
+			}
 		}
 	]
 }

@@ -24,6 +24,9 @@ CMake --build . --target Defining_Smart_Pointers_For_Garbage_Collection
 CMake --build . --target Defining_Classes_Defining_Smart_Pointers_For_Garbage_Collection
 CMake --build . --target Function_Pointers_The_Command_Pattern
 CMake --build . --target Function_Pointers_Member_Function_Pointers
-#>
 CMake --build . --target Defining_Interfaces_Defining_Interfaces
 CMake --build . --target Defining_Interfaces_Multiple_Inheritance
+CMake --build . --target Base_Classes_Virtual_Base_Classes
+#>
+CMake --build . --target Base_Classes_Mixin_Classes
+CMake --build . --target Base_Classes_Run_Type_Type_Information
