@@ -507,6 +507,34 @@
 			"windows": {
 				"symbolSearchPath": "${workspaceFolder}/Build/Singleton_Pattern_Handle_Body_Idiom.dir;https://msdl.microsoft.com/download/symbols"
 			}
+		},
+		{
+			"name": "Namespaces/Using Namespaces Effectively",
+			"request": "launch",
+			"type": "cppvsdbg",
+			"program": "${workspaceFolder}/Build/Debug/Namespaces_Using_Namespaces_Effectively",
+			"cwd": "${workspaceFolder}",
+			"externalConsole": false,
+			"stopAtEntry": false,
+			"args": [],
+			"environment": [],
+			"windows": {
+				"symbolSearchPath": "${workspaceFolder}/Build/Namespaces_Using_Namespaces_Effectively.dir;https://msdl.microsoft.com/download/symbols"
+			}
+		},
+		{
+			"name": "Namespaces/Association and Delegation Recap",
+			"request": "launch",
+			"type": "cppvsdbg",
+			"program": "${workspaceFolder}/Build/Debug/Namespaces_Association_And_Delegation_Recap",
+			"cwd": "${workspaceFolder}",
+			"externalConsole": false,
+			"stopAtEntry": false,
+			"args": [],
+			"environment": [],
+			"windows": {
+				"symbolSearchPath": "${workspaceFolder}/Build/Namespaces_Association_And_Delegation_Recap.dir;https://msdl.microsoft.com/download/symbols"
+			}
 		}
 	]
 }

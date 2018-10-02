@@ -190,3 +190,13 @@ add_executable(Singleton_Pattern_Handle_Body_Idiom
 "${PROJECT_SOURCE_DIR}/Patterns/Singleton_Pattern/Handle_Body_Idiom.cpp"
 ${COMMON_FILES}
 )
+
+add_executable(Namespaces_Using_Namespaces_Effectively
+"${PROJECT_SOURCE_DIR}/Patterns/Namespaces/Using_Namespaces_Effectively.cpp"
+${COMMON_FILES}
+)
+
+add_executable(Namespaces_Association_And_Delegation_Recap
+"${PROJECT_SOURCE_DIR}/Patterns/Namespaces/Association_And_Delegation_Recap.cpp"
+${COMMON_FILES}
+)
