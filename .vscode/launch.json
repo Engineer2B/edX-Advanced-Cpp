@@ -535,6 +535,48 @@
 			"windows": {
 				"symbolSearchPath": "${workspaceFolder}/Build/Namespaces_Association_And_Delegation_Recap.dir;https://msdl.microsoft.com/download/symbols"
 			}
+		},
+		{
+			"name": "Patterns/Object Adapter",
+			"request": "launch",
+			"type": "cppvsdbg",
+			"program": "${workspaceFolder}/Build/Debug/Patterns_Object_Adapter",
+			"cwd": "${workspaceFolder}",
+			"externalConsole": false,
+			"stopAtEntry": false,
+			"args": [],
+			"environment": [],
+			"windows": {
+				"symbolSearchPath": "${workspaceFolder}/Build/Patterns_Object_Adapter.dir;https://msdl.microsoft.com/download/symbols"
+			}
+		},
+		{
+			"name": "Patterns/Proxy",
+			"request": "launch",
+			"type": "cppvsdbg",
+			"program": "${workspaceFolder}/Build/Debug/Patterns_Proxy",
+			"cwd": "${workspaceFolder}",
+			"externalConsole": false,
+			"stopAtEntry": false,
+			"args": [],
+			"environment": [],
+			"windows": {
+				"symbolSearchPath": "${workspaceFolder}/Build/Patterns_Proxy.dir;https://msdl.microsoft.com/download/symbols"
+			}
+		},
+		{
+			"name": "Patterns/Null Object",
+			"request": "launch",
+			"type": "cppvsdbg",
+			"program": "${workspaceFolder}/Build/Debug/Patterns_Null_Object",
+			"cwd": "${workspaceFolder}",
+			"externalConsole": false,
+			"stopAtEntry": false,
+			"args": [],
+			"environment": [],
+			"windows": {
+				"symbolSearchPath": "${workspaceFolder}/Build/Patterns_Null_Object.dir;https://msdl.microsoft.com/download/symbols"
+			}
 		}
 	]
 }
