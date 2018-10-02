@@ -29,7 +29,10 @@ CMake --build . --target Defining_Interfaces_Multiple_Inheritance
 CMake --build . --target Base_Classes_Virtual_Base_Classes
 CMake --build . --target Base_Classes_Mixin_Classes
 CMake --build . --target Base_Classes_Run_Type_Type_Information
-#>
 CMake --build . --target Inheritance_Private_And_Protected_Inheritance
 CMake --build . --target Inheritance_Class_Adapter_Pattern
 CMake --build . --target Inheritance_Static_Class_Members
+#>
+CMake --build . --target Singleton_Pattern_Singleton_Pattern
+CMake --build . --target Singleton_Pattern_Defining_Nested_Classes
+CMake --build . --target Singleton_Pattern_Handle_Body_Idiom

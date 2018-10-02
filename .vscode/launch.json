@@ -465,6 +465,48 @@
 			"windows": {
 				"symbolSearchPath": "${workspaceFolder}/Build/Inheritance_Static_Class_Members.dir;https://msdl.microsoft.com/download/symbols"
 			}
+		},
+		{
+			"name": "Singleton Pattern/Singleton Pattern",
+			"request": "launch",
+			"type": "cppvsdbg",
+			"program": "${workspaceFolder}/Build/Debug/Singleton_Pattern_Singleton_Pattern",
+			"cwd": "${workspaceFolder}",
+			"externalConsole": false,
+			"stopAtEntry": false,
+			"args": [],
+			"environment": [],
+			"windows": {
+				"symbolSearchPath": "${workspaceFolder}/Build/Singleton_Pattern_Singleton_Pattern.dir;https://msdl.microsoft.com/download/symbols"
+			}
+		},
+		{
+			"name": "Singleton Pattern/Defining Nested Classes",
+			"request": "launch",
+			"type": "cppvsdbg",
+			"program": "${workspaceFolder}/Build/Debug/Singleton_Pattern_Defining_Nested_Classes",
+			"cwd": "${workspaceFolder}",
+			"externalConsole": false,
+			"stopAtEntry": false,
+			"args": [],
+			"environment": [],
+			"windows": {
+				"symbolSearchPath": "${workspaceFolder}/Build/Singleton_Pattern_Defining_Nested_Classes.dir;https://msdl.microsoft.com/download/symbols"
+			}
+		},
+		{
+			"name": "Singleton Pattern/Handle Body Idiom",
+			"request": "launch",
+			"type": "cppvsdbg",
+			"program": "${workspaceFolder}/Build/Debug/Singleton_Pattern_Handle_Body_Idiom",
+			"cwd": "${workspaceFolder}",
+			"externalConsole": false,
+			"stopAtEntry": false,
+			"args": [],
+			"environment": [],
+			"windows": {
+				"symbolSearchPath": "${workspaceFolder}/Build/Singleton_Pattern_Handle_Body_Idiom.dir;https://msdl.microsoft.com/download/symbols"
+			}
 		}
 	]
 }
