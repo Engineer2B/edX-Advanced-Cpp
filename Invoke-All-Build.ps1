@@ -1,4 +1,3 @@
-<#
 CMake --build . --target Casting_Examples
 CMake --build . --target Casting_Copy_Constructors_And_Assignment
 CMake --build . --target Allocation_Bad_Alloc
@@ -37,7 +36,8 @@ CMake --build . --target Singleton_Pattern_Defining_Nested_Classes
 CMake --build . --target Singleton_Pattern_Handle_Body_Idiom
 CMake --build . --target Namespaces_Using_Namespaces_Effectively
 CMake --build . --target Namespaces_Association_And_Delegation_Recap
-#>
 CMake --build . --target Patterns_Object_Adapter
 CMake --build . --target Patterns_Proxy
 CMake --build . --target Patterns_Null_Object
+CMake --build . --target Smart_Pointers_Defining_Smart_Pointers
+CMake --build . --target Smart_Pointers_Lazy_Loading

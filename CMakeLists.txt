@@ -215,3 +215,13 @@ add_executable(Patterns_Null_Object
 "${PROJECT_SOURCE_DIR}/Patterns/Patterns/Null_Object.cpp"
 ${COMMON_FILES}
 )
+
+add_executable(Smart_Pointers_Defining_Smart_Pointers
+"${PROJECT_SOURCE_DIR}/Patterns/Smart_Pointers/Defining_Smart_Pointers.cpp"
+${COMMON_FILES}
+)
+
+add_executable(Smart_Pointers_Lazy_Loading
+"${PROJECT_SOURCE_DIR}/Patterns/Smart_Pointers/Lazy_Loading.cpp"
+${COMMON_FILES}
+)

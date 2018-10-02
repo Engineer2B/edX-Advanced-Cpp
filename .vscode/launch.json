@@ -577,6 +577,34 @@
 			"windows": {
 				"symbolSearchPath": "${workspaceFolder}/Build/Patterns_Null_Object.dir;https://msdl.microsoft.com/download/symbols"
 			}
+		},
+		{
+			"name": "Smart Pointers/Defining Smart Pointers",
+			"request": "launch",
+			"type": "cppvsdbg",
+			"program": "${workspaceFolder}/Build/Debug/Smart_Pointers_Defining_Smart_Pointers",
+			"cwd": "${workspaceFolder}",
+			"externalConsole": false,
+			"stopAtEntry": false,
+			"args": [],
+			"environment": [],
+			"windows": {
+				"symbolSearchPath": "${workspaceFolder}/Build/Smart_Pointers_Defining_Smart_Pointers.dir;https://msdl.microsoft.com/download/symbols"
+			}
+		},
+		{
+			"name": "Smart Pointers/Lazy Loading",
+			"request": "launch",
+			"type": "cppvsdbg",
+			"program": "${workspaceFolder}/Build/Debug/Smart_Pointers_Lazy_Loading",
+			"cwd": "${workspaceFolder}",
+			"externalConsole": false,
+			"stopAtEntry": false,
+			"args": [],
+			"environment": [],
+			"windows": {
+				"symbolSearchPath": "${workspaceFolder}/Build/Smart_Pointers_Lazy_Loading.dir;https://msdl.microsoft.com/download/symbols"
+			}
 		}
 	]
 }
