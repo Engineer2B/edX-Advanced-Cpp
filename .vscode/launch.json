@@ -423,6 +423,48 @@
 			"windows": {
 				"symbolSearchPath": "${workspaceFolder}/Build/Base_Classes_Run_Type_Type_Information.dir;https://msdl.microsoft.com/download/symbols"
 			}
+		},
+		{
+			"name": "Inheritance/Private And Protected Inheritance",
+			"request": "launch",
+			"type": "cppvsdbg",
+			"program": "${workspaceFolder}/Build/Debug/Inheritance_Private_And_Protected_Inheritance",
+			"cwd": "${workspaceFolder}",
+			"externalConsole": false,
+			"stopAtEntry": false,
+			"args": [],
+			"environment": [],
+			"windows": {
+				"symbolSearchPath": "${workspaceFolder}/Build/Inheritance_Private_And_Protected_Inheritance.dir;https://msdl.microsoft.com/download/symbols"
+			}
+		},
+		{
+			"name": "Inheritance/Class Adapter Pattern",
+			"request": "launch",
+			"type": "cppvsdbg",
+			"program": "${workspaceFolder}/Build/Debug/Inheritance_Class_Adapter_Pattern",
+			"cwd": "${workspaceFolder}",
+			"externalConsole": false,
+			"stopAtEntry": false,
+			"args": [],
+			"environment": [],
+			"windows": {
+				"symbolSearchPath": "${workspaceFolder}/Build/Inheritance_Class_Adapter_Pattern.dir;https://msdl.microsoft.com/download/symbols"
+			}
+		},
+		{
+			"name": "Inheritance/Static Class Members",
+			"request": "launch",
+			"type": "cppvsdbg",
+			"program": "${workspaceFolder}/Build/Debug/Inheritance_Static_Class_Members",
+			"cwd": "${workspaceFolder}",
+			"externalConsole": false,
+			"stopAtEntry": false,
+			"args": [],
+			"environment": [],
+			"windows": {
+				"symbolSearchPath": "${workspaceFolder}/Build/Inheritance_Static_Class_Members.dir;https://msdl.microsoft.com/download/symbols"
+			}
 		}
 	]
 }
